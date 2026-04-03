@@ -20,6 +20,10 @@ This project is intended for ROS map workflows. It is **not** a ROS node itself,
 - Export `PGM + YAML`
 - Works with either Qt5 or Qt6
 
+## Preview
+
+![Map preview](./docs/images/map-preview.svg)
+
 ## ROS / ROS 2 Compatibility
 
 This repository should be described as:
@@ -178,49 +182,6 @@ ros2 run nav2_map_server map_server __params:=map_server_params.yaml
 
 In real projects, it is more common to provide the map YAML path through a Nav2 launch file or parameter file.
 
-## Recommended GitHub Repository Metadata
-
-### Suggested repository names
-
-- `pgm-map-editor`
-- `ros-pgm-map-editor`
-- `qt-map-editor-ros`
-
-### Suggested short description
-
-`Qt-based occupancy-grid map editor for ROS / ROS 2 PGM + YAML map workflows`
-
-### Suggested topics
-
-- `ros`
-- `ros2`
-- `pgm`
-- `yaml`
-- `map-editor`
-- `occupancy-grid`
-- `navigation`
-- `qt`
-- `qt5`
-- `qt6`
-
-## Before Publishing
-
-Before making the repository public, it is recommended to add:
-
-- a `LICENSE` file
-- a few screenshots or a demo GIF
-- a short changelog
-- release tags such as `v1.0.0`
-
-Without a license, the repository is visible but not truly open source for reuse.
-
-## Suggested License
-
-If you want other people to use and modify the code with minimal friction, `MIT` is the simplest common choice.
-
-If you want stronger patent protection language, consider `Apache-2.0`.
-
-Choose a license intentionally before publishing.
 
 ## Roadmap
 

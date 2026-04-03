@@ -20,6 +20,10 @@
 - 导出 `PGM + YAML`
 - 同时兼容 Qt5 和 Qt6
 
+## 预览图
+
+![地图预览](./docs/images/map-preview.svg)
+
 ## ROS / ROS 2 兼容性说明
 
 建议你在仓库介绍里这样描述本项目：
@@ -179,49 +183,6 @@ ros2 run nav2_map_server map_server __params:=map_server_params.yaml
 
 在实际项目中，更常见的做法是通过 Nav2 的 launch 文件或参数文件统一传入地图路径。
 
-## GitHub 仓库信息建议
-
-### 建议的仓库名
-
-- `pgm-map-editor`
-- `ros-pgm-map-editor`
-- `qt-map-editor-ros`
-
-### 建议的仓库描述
-
-`Qt-based occupancy-grid map editor for ROS / ROS 2 PGM + YAML map workflows`
-
-### 建议添加的 topics
-
-- `ros`
-- `ros2`
-- `pgm`
-- `yaml`
-- `map-editor`
-- `occupancy-grid`
-- `navigation`
-- `qt`
-- `qt5`
-- `qt6`
-
-## 公开前建议补充的内容
-
-建议在仓库公开前再加上：
-
-- `LICENSE` 文件
-- 几张界面截图或一个演示 GIF
-- 简单的更新日志
-- 如 `v1.0.0` 这样的 release 标签
-
-如果没有许可证文件，仓库虽然可见，但从严格意义上说并不能算可自由复用的开源项目。
-
-## 许可证建议
-
-如果你希望别人更容易使用、修改和二次分发，`MIT` 是最常见、最简洁的选择。
-
-如果你希望许可证里包含更明确的专利条款，可以考虑 `Apache-2.0`。
-
-建议你在公开前明确选择一种许可证。
 
 ## 后续规划
 
